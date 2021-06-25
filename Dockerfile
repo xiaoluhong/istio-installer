@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV ISTIO_VERSION 1.9.6
+ENV ISTIO_VERSION 1.10.1
 
 RUN apk update && apk add curl bash coreutils jq nginx ca-certificates && rm -rf /var/cache/apk/*
 
